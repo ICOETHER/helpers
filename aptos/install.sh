@@ -86,7 +86,7 @@ function up_validator {
   docker compose -f ${HOME}/${WORKSPACE}/docker-compose.yaml up -d
 }
 function logo {
-  curl -s https://github.com/ICOETHER/helpers/blob/main/doubletop.sh | bash
+  curl -s https://raw.githubusercontent.com/ICOETHER/helpers/main/doubletop.sh | bash
 }
 
 function line {
