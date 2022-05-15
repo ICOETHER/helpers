@@ -2,7 +2,7 @@
 
 function aptos_username {
   if [ ! ${aptos_username} ]; then
-  echo "Введите свое имя ноды(придумайте)"
+  echo "본인 노드의 이름을 입력하세요."
   line
   read aptos_username
   fi
@@ -122,4 +122,4 @@ compile_genesis_waypoint
 line
 up_validator
 line
-echo "Готово"
+echo "CRYPTO GHIDORAH"
